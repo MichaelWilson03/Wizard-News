@@ -3,11 +3,8 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "start": "if [ $SEED_DB == true ]; then npm run seed; fi && node server.js",
-    "seed": "node seed.js",
-    "build": "npm run build"
-    
-    
+    "start:dev": "nodemon app.js",
+    "start": "node app.js"
   },
   "keywords": [],
   "author": "",
