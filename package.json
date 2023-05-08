@@ -4,8 +4,7 @@
   "description": "",
   "scripts": {
     "start:dev": "nodemon app.js",
-    "start": "node app.js",
-    "build": "node build/build.js"
+    "start": "node app.js"
   },
   "keywords": [],
   "author": "",
@@ -14,10 +13,12 @@
     "nodemon": "^2.0.22"
   },
   "dependencies": {
+    "cookie-parser": "^1.4.6",
     "express": "^4.16.2",
     "html-template-tag": "^4.0.1",
     "javascript-time-ago": "^2.5.9",
     "morgan": "^1.10.0",
-    "node-time-ago": "^1.0.0"
+    "node-time-ago": "^1.0.0",
+    "t": "^0.5.1"
   }
 }
