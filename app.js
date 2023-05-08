@@ -11,7 +11,7 @@ app.get("/", (req, res) => {
   app.use(express.static("public"));
 
   const html = `<!DOCTYPE html>
-  
+  <html lang="en">
   <head>
   <title>Wizard News</title>
   <link rel="stylesheet" href="/style.css" />
@@ -51,7 +51,7 @@ app.get("/posts/:id", (req, res) => {
     throw new Error("Not Found");
   }
   res.send(`<!DOCTYPE html>
-  
+  <html lang="en">
   <head>
   <title>Wizard News</title>
   <link rel="stylesheet" href="/style.css" />
